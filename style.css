@@ -1,0 +1,121 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+#container{
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(7, 1fr);
+}
+
+#header {
+    background-color: aliceblue;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0;
+    height: 100%;
+
+}
+
+#logo-text{
+    margin-right: auto;
+    align-self: flex-end;
+}
+
+h1 {
+    margin: 0;
+    color:#4FAA91;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.links {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+#titles{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#ffffff;
+    font-size: 3em;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#ffffff;
+    font-size: 16px;
+}
+
+#left-content{
+    background-color: #ffffff;
+    width: 15vw;
+    grid-row-start: 4;
+    grid-row-end: 8;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#calendar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#right-content{
+    background-color: #ffffff;
+    width: 15vw;
+    grid-row-start: 4;
+    grid-row-end: 8;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+h4{
+   color:#4FAA91;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
